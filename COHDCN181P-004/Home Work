@@ -1,0 +1,12 @@
+total=0.0
+while true:
+	number=input("enter number here:")
+	if number==":
+		break
+	try:
+float(number)
+	total=total+float(number)
+	except valueError:
+		continue
+	print("toatal is",total)
+
